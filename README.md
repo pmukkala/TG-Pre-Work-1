@@ -6,32 +6,25 @@ put your answer here
 
 ## From start to finish how does that data reach you to be rendered in the browser?
 
-put your answer here
-
+This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+ 
 ## What code is rendered in the browser?
-
-put your answer here
-
+The rendering engine : responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.The responsibility of the rendering engine is well... Rendering, that is display of the requested contents on the browser screen.By default the rendering engine can display HTML and XML documents and images. It can display other types of data via plug-ins or extension; for example, displaying PDF documents using a PDF viewer plug-in. However, in this chapter we will focus on the main use case: displaying HTML and images that are formatted using CSS.
 ## What is the server-side code’s main function?
-
-put your answer here
+Server-side programming is very useful because it allows us to efficiently deliver information tailored for individual users and thereby create a much better user experience.Companies like Amazon use server-side programming to construct search results for products, make targeted product suggestions based on client preferences and previous buying habits, simplify purchases, etc.Banks use server-side programming to store account information and allow only authorized users to view and make transactions. Other services like Facebook, Twitter, Instagram, and Wikipedia use server-side programming to highlight, share, and control access to interesting content.Server-side programming allows us to instead store the information in a database and dynamically construct and return HTML and other types of files (e.g. PDFs, images, etc.). It is also possible to simply return data (JSON, XML, etc.) for rendering by appropriate client-side web frameworks (this reduces the processing burden on the server and the amount of data that needs to be sent).Servers can store and use information about clients to provide a convenient and tailored user experience. For example, many sites store credit cards so that details don't have to be entered again. Sites like Google Maps can use saved or current locations for providing routing information, and search or travel history to highlight local businesses in search results.we should also understand that it is useful because it allows us to create websites that efficiently deliver information tailored for individual users and have a good idea of some of the things you might be able to do when you're a server-side programmer.The server is not limited to sending information from databases, and might alternatively return the result of software tools, or data from communications services. The content can even be targeted for the type of client device that is receiving it.Because the information is in a database, it can also more easily be shared and updated with other business systems (for example, when products are sold either online or in a shop, the shop might update its database of inventory).Some of the common uses and benefits of server-side programming are listed below. You'll note that there is some overlap!
 
 ## What is the client-side code’s main function?
-
-put your answer here
+The benefits of client-side processing in an ASP.NET web application are programming languages like C# and VB.NET along with the .NET Framework. Languages like C# and VB.NET sit on top of the .NET framework and have all the benefits of object oriented architectures like inheritance, implementing interfaces and polymorphism.client-side scripts are embedded on the client’s web page and processed on the client’s internet browser. Client-side scripts are written in some type of scripting language like JavaScript and interact directly with the page’s HTML elements like text boxes, buttons, list-boxes and tables. HTML and CSS (cascading style sheets) are also used in the client. In order for client-side code to work, the client’s internet browser must support these languages.There are many advantages to client-side scripting including faster response times, a more interactive application, and less overhead on the web server. Client-side code is ideal for when the page elements need to be changed without the need to contact the database. A good example would be to dynamically show and hide elements based on user inputs. One of the most common examples is input validation and Microsoft’s Visual Studio includes a set of client-side validation controls.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
 put your answer here
 
 ## How many instances of the server-side code are available at any given time?
-
-put your answer here
+By default, when you create an EC2 account with Amazon, your account is limited to a maximum of 20 instances per EC2 region with two default High I/O Instances (hi1.4xlarge) (not availability zone). Before you can have more than 20 running instances running at the same time in one EC2 region, you must first get approval directly from Amazon. You must specify which EC2 region you would like to increase your limit. Limit increases apply to that region only.This includes instances launched from a server array. Your array will start new instances until you reach your limit of total instances allowed.
+Only running instances count against your limit.
 
 ## What is runtime?
-
-put your answer here
-
-## How many instances of the the databases connected to the server application are created?
-
-put your answer here
+Runtime is when a program is running (or being executable). That is, when you start a program running in a computer, it is runtime for that program. In some programming languages, certain reusable programs or "routines" are built and packaged as a "runtime library." These routines can be linked to and used by any program when it is running.Run time is primarily used in software development to isolate and define certain phases of the program/software in development. Run time starts when the program is loaded within the memory along with its required framework, components and libraries. This is generally done by the compiler or a loader application found within software development utilities and languages. The operating system assigns required memory, processor and I/O resources to all the programs, from the start to the end of its run time. Run time is primarily used in software development to isolate and define certain phases of the program/software in development. Run time starts when the program is loaded within the memory along with its required framework, components and libraries. This is generally done by the compiler or a loader application found within software development utilities and languages. The operating system assigns required memory, processor and I/O resources to all the programs, from the start to the end of its run time.
+## How many instances of the the databases connected to the server application are created? 
+You can run multiple instances of the Database Engine on a computer. One instance can be the default instance. The default instance has no name. If a connection request specifies only the name of the computer, the connection is made to the default instance. A named instance is one where you specify an instance name when installing the instance. A connection request must specify both the computer name and instance name in order to connect to the instance. There is no requirement to install a default instance; all of the instances running on a computer can be named instances.
